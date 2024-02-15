@@ -135,7 +135,7 @@
         <h1>Home content</h1>
 
             {{-- Exemple de layout pour 3 recettes --}}
-            {{--
+
             <div class="columns is-multiline">
             <div class="column is-4 mb-5">
                 <span><small class="has-text-grey-dark">10 jun 2021 19:40</small></span>
@@ -156,7 +156,6 @@
                 <a href="#">Read More</a>
             </div>
             </div>
-            --}}
 
         @endsection
     </body>
