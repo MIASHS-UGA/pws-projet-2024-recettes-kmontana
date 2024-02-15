@@ -63,7 +63,7 @@
 
           @yield('content')
 
-          {{-- Exemple de layout pour 3 recettes --}}
+             {{-- Exemple de layout pour 3 recettes --}}
           {{--
           <div class="columns is-multiline">
             <div class="column is-4 mb-5">
@@ -86,7 +86,6 @@
             </div>
           </div>
             --}}
-
 
         </div>
       </section>
