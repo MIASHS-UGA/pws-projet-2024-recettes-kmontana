@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('comments', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('author_id')->default(0)->index('comments_fk1_idx');
+            $table->unsignedBigInteger('recipe_id')->default(0)->index('comments_fk1_idx');
+            $table->longText('content');
             $table->timestamps();
         });
     }
